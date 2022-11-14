@@ -1,1 +1,1 @@
-Write a program that reads a positive integer and computes the factorial.
+Write a C program that reads a positive integer and computes the factorial.
