@@ -1,2 +1,3 @@
 # Embedded-Systems-Diploma
-THis is an embeddddddddedd
+This is a repo for Embedded Systems Diploma under supervision of Eng. Mohamed Abdelbasit
+
