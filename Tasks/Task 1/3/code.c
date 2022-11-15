@@ -12,6 +12,7 @@ int main()
     int x, y;                 // (x), (y)=> are the two operands.
     int z;                   // (z)=> number of mathematical operation the end-user will choose to do.
     int result;             // (result)=> result of the mathematical operation.
+    flaot quot;            // (quot)=> result of division operation.
 
     printf("Enter the first number: ");
     scanf("%d", &x);
@@ -59,8 +60,8 @@ int main()
         }
         else
         {
-            result=x/y;
-            printf("result = %d\n", result);
+            result=(float)x/(float)y;                                               // Type Casting to avoid Integer Division
+            printf("result = %f\n", result);
             printf("**************************************************");
         }
     }
