@@ -23,7 +23,6 @@ int main()
     // Converting temperature in Celsius to temperature in Fahrenheit
     t2 = (t1*9/5)+32;
 
-
     // Printing temperature in Fahrenheit
     printf("Temperature in Fahrenheit = %.1f F", t2);
 
