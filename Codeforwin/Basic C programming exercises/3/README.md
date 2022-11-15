@@ -10,6 +10,7 @@ Second number: 5
 ## Output:
 
 Sum = 15
+
 Difference = 5
 
 Product = 50
