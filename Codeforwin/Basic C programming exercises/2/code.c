@@ -1,6 +1,6 @@
 /*************************************************************************************/
-/* Author: Karim Tarek Ibrahim                                                      */
-/* Problem link: https://codeforwin.org/2015/05/c-program-to-add-two-numbers.html  */
+/*                       Author: Karim Tarek Ibrahim                                */
+/***********************************************************************************/
 
 /*
 * C program to find sum of two numbers 
