@@ -1,5 +1,7 @@
 Write a C program to input two numbers from user and calculate their sum.
 
+Problem link: https://codeforwin.org/2015/05/c-program-to-add-two-numbers.html
+
 ## Example
 
 ## Input
