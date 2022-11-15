@@ -24,9 +24,8 @@ int main()
     t2 = (t1*9/5)+32;
 
 
-    // Printing length in m
+    // Printing temperature in Fahrenheit
     printf("Temperature in Fahrenheit = %.1f F", t2);
-
 
     return 0;
 }
