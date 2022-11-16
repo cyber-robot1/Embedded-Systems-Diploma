@@ -1,1 +1,1 @@
-Write a C program to get two numbers from users and print the numbers between them exclusively, from the largest to the smallest.
+Write a C program to get two numbers from user and print the numbers between them exclusively, from the largest to the smallest.
