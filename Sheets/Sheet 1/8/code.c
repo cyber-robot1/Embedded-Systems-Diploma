@@ -7,9 +7,8 @@
 
 int main()
 {
-
     unsigned int num;
-
+    
     /*
      (flag)=> is set to be like a boolean variable and set initially to 1 (true)
      (c)=> counter variable
@@ -35,7 +34,8 @@ int main()
         else
             flag=0;
     }
-
+    
+    // Printing message if the given number is a prime or not
     if(flag)
         printf("%d is a prime number", num);
     else
