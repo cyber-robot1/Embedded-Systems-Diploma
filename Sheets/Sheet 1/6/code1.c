@@ -13,7 +13,6 @@
 
 int main()
 {
-
     int base, exponent, power=0;
 
     // Getting base and exponent from user
@@ -24,7 +23,6 @@ int main()
 
     // Getting power of the number
     power = pow(base, exponent);
-
 
     // Printing power of the number
     printf("Power = %d", power);
