@@ -3,6 +3,10 @@
 /***********************************************************************************/
 
 
+/*
+ Getting power of the number by using the built-in function pow()
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
