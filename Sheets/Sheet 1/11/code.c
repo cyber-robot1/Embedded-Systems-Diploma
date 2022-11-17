@@ -8,7 +8,11 @@
 int main()
 {
 
-    unsigned int num, sum=0;
+    /*
+     (sum)=> sum of digits of the given number
+     (c)=> number of digits of the given number
+    */
+    unsigned int num, sum=0, c=0;
     unsigned char digit;
 
     // Getting number from user
@@ -20,11 +24,13 @@ int main()
     {
         digit = num % 10;
         sum = sum + digit;
+        c++;
         num = num / 10;
     }
 
-    // Printing sum of digits of the given number
-    printf("Sum of digits = %d", sum);
+    // Printing sum of digits of the given number and number of its digits
+    printf("Sum of digits = %d\n", sum);
+    printf("No. of digits = %d", c);
 
     return 0;
 }
