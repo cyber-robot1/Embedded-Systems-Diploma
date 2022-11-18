@@ -20,9 +20,9 @@ int main()
     scanf("%d", &num3);
 
     // Getting the maximum between two numbers
-    if(num1>num2 && num1>num3)
+    if(num1>=num2 && num1>=num3)
         mx=num1;
-    else if(num2>num1 && num2>num3)
+    else if(num2>=num1 && num2>=num3)
         mx=num2;
     else
         mx=num3;
