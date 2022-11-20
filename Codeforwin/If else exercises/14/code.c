@@ -13,7 +13,7 @@ int main()
      (s_a)=> second angle
      (t_a)=> third angle
     */
-    unsigned char f_a, s_a, t_a;
+    int f_a, s_a, t_a;
 
     // Getting the three angles from user
     printf("Input first angle: ");
