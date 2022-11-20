@@ -7,8 +7,7 @@
 
 int main()
 {
-
-
+    
     unsigned char week;
 
     // Getting a week number from user
