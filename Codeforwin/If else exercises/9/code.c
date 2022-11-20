@@ -8,7 +8,7 @@
 int main()
 {
 
-    // (ch)=> is a letter character
+    // (ch)=> character
     unsigned char ch;
 
     // Getting a character character from user
