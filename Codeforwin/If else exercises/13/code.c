@@ -10,7 +10,7 @@ int main()
 
     // (x)=> amount
     unsigned int x;
-    unsigned char R500, R100, R50, R20, R10, R5, R2, R1;
+    unsigned int R500, R100, R50, R20, R10, R5, R2, R1;
 
     // Getting amount from user
     printf("Input amount: ");
