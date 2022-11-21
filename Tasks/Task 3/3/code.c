@@ -15,16 +15,16 @@ int main()
 
         rem = x%5;
         if(rem==0)
-            printf("%d\n", x);
+            printf("grade: %d\n", x);
         else
         {
             if(rem==1 || rem==2)
-                printf("%d\n", x-rem);
+                printf("grade: %d\n", x-rem);
 
             else if(rem==3 || rem==4)
-                printf("%d\n", (x-rem)+5);
+                printf("grade: %d\n", (x-rem)+5);
         }
     }
-  
+
     return 0;
 }
