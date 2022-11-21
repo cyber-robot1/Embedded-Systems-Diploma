@@ -3,6 +3,13 @@
 /***********************************************************************************/
 
 
+/*
+  Write a C Program to implement a simple calculator with only the five basic operations:
+  (Addition "+" - Subtraction "-" - Multiplication "*" - Division "/" - Reminder "%")
+  without using switch case.
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
