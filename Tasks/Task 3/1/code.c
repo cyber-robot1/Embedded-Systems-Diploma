@@ -28,7 +28,6 @@ int main()
         printf("%d / %d = Math Error (Undefined Mathematical Operation)", x, y);
     else
     {
-
         if(x<0 && y<0)
         {
             x = -1 * x;
