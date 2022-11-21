@@ -2,4 +2,4 @@ Write a C Program to implement a simple calculator with only the five basic oper
 
 (Addition "+" - Subtraction "-" - Multiplication "*" - Division "/" - Reminder "%")
 
-without using switch case.
+
