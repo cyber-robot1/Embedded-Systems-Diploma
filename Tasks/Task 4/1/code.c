@@ -32,22 +32,17 @@ unsigned char isPrime(int n)
 
 int main()
 {
-
     int x;
-    unsigned char flag;
     
     // Getting number from user
     printf("Enter a number: ");
     scanf("%d", &x);
     
-    flag=isPrime(x);
-    
     // Checking if the given number is prime or not
-    if(flag)
+    if(isPrime(x))
         printf("%d is Prime", x);
     else
         printf("%d is Not Prime", x);
-
 
     return 0;
 }
