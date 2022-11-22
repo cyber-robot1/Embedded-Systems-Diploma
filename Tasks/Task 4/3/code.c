@@ -51,7 +51,6 @@ void printPrimes(int n)
 
 int main()
 {
-    
     // (x)=> No. of prime numbers from user
     int x;
 
