@@ -37,7 +37,7 @@ void printPrimes(int n)
     int i=1;
     while(n--)
     {
-        for(i;;i++)
+        for(i;; i++)
         {
             if(isPrime(i))
             {
@@ -51,17 +51,22 @@ void printPrimes(int n)
 
 int main()
 {
-
+    
     // (x)=> No. of prime numbers from user
     int x;
-    
-    // Getting No. of prime numbers from user
-    printf("Enter No. of primes: ");
-    scanf("%d", &x);
-    
-    // Generate No. of prime numbers given by user
-    printPrimes(x);
 
+    while(1)
+    {
+        // Getting No. of prime numbers from user
+        printf("Enter No. of primes: ");
+        scanf("%d", &x);
+
+        // Generate No. of prime numbers given by user
+        printPrimes(x);
+
+        // Print new line
+        printf("\n");
+    }
 
     return 0;
 }
