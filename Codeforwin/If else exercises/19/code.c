@@ -22,18 +22,23 @@ int main()
     sum=physics+chemistry+computer+biology+math;
     percent=((double)sum/(double)500)*100;             // Type Casting to avoid Integer Division
 
-    printf("%.2f\n", percent);
+    printf("Percentage = %.2f\n", percent);
 
     if(percent>=90)
         printf("Grade A");
+    
     else if(percent>=80)
         printf("Grade B");
+    
     else if(percent>=70)
         printf("Grade C");
+    
     else if(percent>=60)
         printf("Grade D");
+    
     else if(percent>=40)
         printf("Grade E");
+    
     else if(percent<40)
         printf("Grade F");
 
