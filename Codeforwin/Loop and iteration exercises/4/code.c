@@ -17,15 +17,31 @@ int main()
 
     for(int i=1; i<=n; i++)
     {
-        if(i==n)
+        if(n%2==0)
         {
-            if(i%2==0)
-                printf("%d", i);
+            if(i==n)
+            {
+                if(i%2==0)
+                    printf("%d", i);
+            }
+            else
+            {
+                if(i%2==0)
+                    printf("%d, ", i);
+            }
         }
         else
         {
-            if(i%2==0)
-                printf("%d, ", i);
+            if(i==n-1)
+            {
+                if(i%2==0)
+                    printf("%d", i);
+            }
+            else
+            {
+                if(i%2==0)
+                    printf("%d, ", i);
+            }
         }
     }
 
