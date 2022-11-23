@@ -19,8 +19,8 @@ int main()
     printf("Input marks of five subjects: ");
     scanf("%d%d%d%d%d", &physics, &chemistry, &computer, &biology, &math);
 
-    sum=physics+chemistry+computer+biology+math;
-    percent=((double)sum/(double)500)*100;             // Type Casting to avoid Integer Division
+    sum = physics + chemistry + computer + biology + math;
+    percent = ((double)sum / (double)500) * 100;             // Type Casting to avoid Integer Division
 
     printf("Percentage = %.2f\n", percent);
 
