@@ -7,7 +7,6 @@
 
 int main()
 {
-
     int n, sum=0;
 
     printf("Input upper limit: ");
