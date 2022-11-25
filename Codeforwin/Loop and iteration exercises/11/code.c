@@ -27,7 +27,6 @@ int main()
         n=n/10;
     }
 
-
     // Printing first and last digits of the given number
     printf("First digit: %d\n", f_digit);
     printf("Last digit: %d", l_digit);
