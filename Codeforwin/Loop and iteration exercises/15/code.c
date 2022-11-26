@@ -7,9 +7,9 @@
 
 int main()
 {
-
     // (prod)=> product of all digits of the given number
-    int n, prod=1, digit=0;
+    int n, digit=0;
+    long long prod=1;
 
     // Getting number from user
     printf("Input number: ");
@@ -24,7 +24,7 @@ int main()
     }
 
     // Printing product of all digits of the given number
-    printf("Product of digits: %d", prod);
+    printf("Product of digits: %lld", prod);
 
     return 0;
 }
