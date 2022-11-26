@@ -7,7 +7,6 @@
 
 int main()
 {
-
     /*
      (sum)=> sum of all digits of the given number
     */
