@@ -1,4 +1,4 @@
-Write a C program to delete both the first and last digits of the given number.
+Write a C program to delete both the first and last digits of the given number (print the given number without its first and last digits).
 
 # Example
 # Input:
