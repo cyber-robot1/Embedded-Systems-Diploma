@@ -7,7 +7,7 @@
 
 int main()
 {
-
+  
     int num;
     unsigned long long int fact=1;
 
@@ -20,7 +20,7 @@ int main()
         fact=fact*i;
 
     // Printing factorial of the given number
-    printf("Factorial: %llu", fact);
+    printf("Factorial of %d: %llu", num, fact);
 
     return 0;
 }
