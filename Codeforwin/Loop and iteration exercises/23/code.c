@@ -7,27 +7,20 @@
 
 int main()
 {
+
     int num;
+    unsigned long long int fact=1;
 
     // Getting a number from user
     printf("Input number: ");
     scanf("%d", &num);
 
-    // Printing all factors of the given number
-    printf("Factors of %d: ", num);
-    for(int i=num; i>=1; i--)
-    {
-        if(i==1)
-        {
-            if(num%i==0)
-                printf("%d", num/i);
-        }
-        else
-        {
-            if(num%i==0)
-                printf("%d, ", num/i);
-        }
-    }
+    // Calculating factorial of the given number
+    for(int i=1; i<=num; i++)
+        fact=fact*i;
+
+    // Printing factorial of the given number
+    printf("Factorial: %llu", fact);
 
     return 0;
 }
