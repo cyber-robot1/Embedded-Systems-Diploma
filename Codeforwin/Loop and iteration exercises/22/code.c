@@ -15,6 +15,7 @@ int main()
     scanf("%d", &num);
 
     // Printing all factors of the given number
+    printf("Factors of %d: ", num);
     for(int i=num; i>=1; i--)
     {
         if(i==1)
