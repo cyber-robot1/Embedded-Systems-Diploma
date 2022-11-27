@@ -42,9 +42,7 @@ int main()
 
     // exponent is zero
     else
-    {
         printf("%d ^ 0 = %d", base, 1);
-    }
 
     return 0;
 }
