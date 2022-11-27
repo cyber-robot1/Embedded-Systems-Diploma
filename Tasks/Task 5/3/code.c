@@ -11,7 +11,7 @@ int removeFLDigit(int n)
 
     /*
      (f_digit)=> first digit of the given number
-     (c)=> number of digits of the given number
+     (c)=> No. of digits of the given number
      (new_n)=> the given number with both the first and last digits deleted
     */
     int f_digit, c=0, temp1, temp2, new_n;
