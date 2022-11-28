@@ -9,11 +9,11 @@ int main()
 {
 
     // (sum)=> sum of all divisors of the given number
-    int num, sum=0;
+    unsigned int num, sum=0;
 
     // Getting a number from user
     printf("Input any number: ");
-    scanf("%d", &num);
+    scanf("%u", &num);
 
     // Getting sum of all divisors of the given number
     for(int i=1; i<num; i++)
@@ -24,9 +24,9 @@ int main()
     
     // Check if the given number is perfect or not
     if(sum==num)
-        printf("%d is perfect number", num);
+        printf("%u is perfect number", num);
     else
-        printf("%d is not perfect number", num);
+        printf("%u is not perfect number", num);
 
     return 0;
 }
