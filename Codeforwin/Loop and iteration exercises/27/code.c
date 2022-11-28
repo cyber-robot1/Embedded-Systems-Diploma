@@ -84,7 +84,7 @@ int main()
     }
 
     // Printing all prime numbers between lower limit and upper limit
-    printf("Prime numbers between %d-%d: ", lower, upper);
+    printf("Prime numbers between %d-%d: ", mn, mx);
     for(int i=mn; i<=mx; i++)
     {
         if(isPrime(mx))
