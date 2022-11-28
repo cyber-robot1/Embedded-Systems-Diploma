@@ -28,7 +28,7 @@ unsigned char isArmstrongNum(int num)
         c++;
         num=num/10;
     }
-    
+
     // Getting sum of all digits in the given number raised to the No. of the digits
     while(temp1!=0)
     {
@@ -91,6 +91,7 @@ int main()
     }
 
     // Printing armstrong numbers between both lower and upper limits
+    printf("Armstrong number between %d to %d are:\n", mn, mx);
     for(int i=mn; i<=mx; i++)
     {
         if(isArmstrongNum(mx))
