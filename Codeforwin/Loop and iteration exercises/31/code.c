@@ -79,6 +79,8 @@ int main()
         {
             if(isArmstrongNum(i))
                 mx_arm=i;
+            
+            flag=0;
         }
         else
         {
