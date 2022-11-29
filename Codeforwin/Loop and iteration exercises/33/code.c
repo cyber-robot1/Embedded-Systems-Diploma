@@ -53,6 +53,8 @@ int main()
         {
             if(isPerfectNum(i))
                 mx_perf=i;
+            
+            flag=0;
         }
         
         else
