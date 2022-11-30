@@ -66,21 +66,8 @@ int main()
     // Getting the maximum prime number between lower limit and upper limit
     for(int i=mn; i<=mx; i++)
     {
-        if(flag)
-        {
-            if(isPrime(i))
-                mx_prime=i;
-
-            flag=0;
-        }
-        else
-        {
-            if(isPrime(i))
-            {
-                if(i>mx_prime)
-                    mx_prime=i;
-            }
-        }
+        if(isPrime(i))
+            mx_prime=i;
     }
 
     // Printing all prime numbers between lower limit and upper limit
