@@ -2,6 +2,11 @@
  /*                       Author: Karim Tarek Ibrahim                                 */
 /* ********************************************************************************* */
 
+/*
+    No. of terms of Fibonacci series is given by the user
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
