@@ -8,7 +8,7 @@
 int main()
 {
 
-    unsigned int x, y;
+    int x, y;
     printf("Enter the first number: ");
     scanf("%d", &x);
     printf("Enter the second number: ");
