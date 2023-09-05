@@ -1,4 +1,5 @@
 Take a mark from the student and print his grade:
+
 [0-50[ -> F
 
 [50-60[ -> D
