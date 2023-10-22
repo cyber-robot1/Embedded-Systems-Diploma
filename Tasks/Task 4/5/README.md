@@ -1,1 +1,1 @@
-Write a C program that calculates the power of two given numbers (base, exponent).
+Write a C program that get two numbers from user (base, exponent) and calculates the power.
