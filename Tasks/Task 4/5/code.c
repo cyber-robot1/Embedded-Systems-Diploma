@@ -19,7 +19,7 @@ int main()
     for(int i=1; i<=exponent; i++)
         pow*=base;
 
-    printf("%d power %d = %d", base,exponent,pow);
+    printf("%d ^ %d = %d", base,exponent,pow);
 
     return 0;
 }
